@@ -1,0 +1,30 @@
+[
+  {
+    "path": "static/assets/dynamic.js",
+    "hash": "e40d649828cda622ff13feeb28e88494"
+  },
+  {
+    "path": "static/assets/font.ttf",
+    "hash": "8c9110ec6a1737b15a5611dc810b0f92"
+  },
+  {
+    "path": "static/assets/heavy_image.png",
+    "hash": "51e073b3161b6ea4f2d0712ad33a69bf"
+  },
+  {
+    "path": "static/assets/logoImage.png",
+    "hash": "95c219d539555b39d1cddc81f28b100e"
+  },
+  {
+    "path": "static/assets/script.js",
+    "hash": "50d1fc6d57d843ffd3cd4e4a6bbb3c4b"
+  },
+  {
+    "path": "static/assets/style.css",
+    "hash": "3d02e13aeb6bc2fd13be9c8ce8a406a6"
+  },
+  {
+    "path": "static/index.html",
+    "hash": "a20967e26637d206543716218c2f507b"
+  }
+]

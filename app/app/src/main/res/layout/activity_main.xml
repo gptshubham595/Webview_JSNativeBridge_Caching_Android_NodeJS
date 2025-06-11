@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/btn_without_cache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open WebView (NO Cache)" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="12dp" />
+
+    <Button
+        android:id="@+id/btn_with_cache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open WebView (DEFAULT Cache)" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="12dp" />
+
+    <Button
+        android:id="@+id/btn_with_auto_download_cache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open WebView (DOWNLOAD ASSETS Cache)" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="12dp" />
+
+    <Button
+        android:id="@+id/btn_with_manifest_cache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open WebView (DOWNLOAD ASSETS WITH HASH Cache)" />
+
+</LinearLayout>

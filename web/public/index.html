@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hybrid WebView Demo</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="preload" href="assets/font.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Hybrid WebView</h1>
+    <p id="status">App status: <span>Waiting...</span></p>
+  </header>
+
+  <section>
+    <img src="assets/logoImage.png" width="100" />
+    <img src="assets/heavy_image.png" width="300" />
+    <p>This is a heavier test page to simulate hybrid behavior.</p>
+      <button onclick="notifyAndroid()">Notify Native App</button>
+      <button onclick="showAlert()">Show Alert from Native</button>
+      <button onclick="closeWebView()">Close WebView</button>
+      <button onclick="openContacts()">Open Contacts</button>
+    <div id="dynamic-content"></div>
+  </section>
+
+  <script src="assets/script.js"></script>
+  <script src="assets/dynamic.js"></script>
+</body>
+</html>
